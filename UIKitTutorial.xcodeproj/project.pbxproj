@@ -11,20 +11,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		01E6D89C2D43B89A000AA5DA /* Exceptions for "UIKitTutorial" folder in "UIKitTutorial" target */ = {
+		01E6D8D72D43B94E000AA5DA /* Exceptions for "UIKitTutorial" folder in "UIKitTutorial" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 01E6D8892D43B899000AA5DA /* UIKitTutorial */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		01E6D88C2D43B899000AA5DA /* UIKitTutorial */ = {
+		01E6D8CF2D43B94E000AA5DA /* UIKitTutorial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				01E6D89C2D43B89A000AA5DA /* Exceptions for "UIKitTutorial" folder in "UIKitTutorial" target */,
+				01E6D8D72D43B94E000AA5DA /* Exceptions for "UIKitTutorial" folder in "UIKitTutorial" target */,
 			);
 			path = UIKitTutorial;
 			sourceTree = "<group>";
@@ -45,8 +45,8 @@
 		01E6D8812D43B899000AA5DA = {
 			isa = PBXGroup;
 			children = (
-				01E6D88C2D43B899000AA5DA /* UIKitTutorial */,
 				01E6D88B2D43B899000AA5DA /* Products */,
+				01E6D8CF2D43B94E000AA5DA /* UIKitTutorial */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				01E6D88C2D43B899000AA5DA /* UIKitTutorial */,
+				01E6D8CF2D43B94E000AA5DA /* UIKitTutorial */,
 			);
 			name = UIKitTutorial;
 			packageProductDependencies = (
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9K9K372K9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitTutorial/Info.plist;
+				INFOPLIST_FILE = UIKitTutorial/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -175,7 +175,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9K9K372K9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitTutorial/Info.plist;
+				INFOPLIST_FILE = UIKitTutorial/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
